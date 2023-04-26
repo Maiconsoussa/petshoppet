@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aqua;
+  }
+
+  div{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-30%,-30%);
+    padding: 45px;
+    border-radius: 35px;
+    color: aqua;
+    cursor: pointer;
+    width: 182px;
+    height: 350px;
+  
+
+  }
+
+  input{
+    padding: 6px ;
+     border-radius: 7px;
+     border :none;
+     font-weight: bold;
+     outline: none;
+     font-size: 15px;
+     cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    
+   
+  
+  }
+  button{
+
+   background-color:aqua; 
+   cursor: pointer;
+   border-radius: 8px;
+   border: none;
+   padding: 3px;
+   color: rgb(0, 0, 0);
+   float: right;
+   font-weight: bold;
+
+  }
+
+  .fundo_env{ 
+
+    color: rgb(6, 6, 6);
+   margin: 0px;
+   margin-right:- 12%;
+ 
+  right: 20px;
+
+     
+    }
+    
+  
+   
+
+  
+
+  .fundo_env:hover{
+
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+   
+  }
+
+
+
+select{
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+::placeholder{
+
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  
+}
+
+
+.fundo_cds{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin-top: 52px;
+  padding: 10px;
+  height: 14px;
+  color: rgb(0, 0, 0);
+  float: right ;
+
+
+}
+
+
+.fundo_cds:hover{
+  color: white;
+  transition: all 1s;
+
+}
+
+.fundo_vta{
+ margin:50px;
+ position: absolute;
+  top: 333px;
+ left: 20px;
+  transform: translate(20px, 20px);
+  margin: 0;
+
+}
+
+.fundo_vta:hover{
+
+  color: white;
+  transition: all 1s;
+}
+
+nav {
+	display: flex;
+   justify-content:space-between;
+	margin: 0%;
+   background-color: #ffffff;
+   border-radius: 15px;
+   height: 56px;
+   width: 99%;
+   cursor: pointer;
+   overflow: hidden;
+  
+  
+   
+
+   
+}
+
+nav ul li{
+	display: inline;
+	margin: 3px;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+
+padding: 0%;}
+
+nav ul li a{
+
+	
+	color: rgb(0, 0, 0);
+	text-decoration:none 
+	
+	
+}
+	
+
+/* cor q muda quando passa mouse */
+nav ul li a:hover{
+	color: rgb(255, 255, 255);
+	
+font-weight: bold;
+
+}
+
+li.active, li:hover{
+	background-color: rgb(0, 0, 0);
+}
+
+ 
+
+.fundo_vta a{
+ text-decoration: none;
+  color: black;
+}
+
+
+.fundo_vollta a{
+  color: black;
+  text-decoration: none;
+}
+
+  .fundo_vollta:hover{
+
+    color: #ffffff;
+    transition: all 1s;
+  }
+
+

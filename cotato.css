@@ -1,0 +1,220 @@
+body{
+
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.logo{
+    width: 50%;
+    cursor: pointer;
+   
+
+}
+.dog{
+
+    border-radius: 100px;
+    width: 150%;
+    cursor: pointer;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.menu{
+padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+html,body{
+    height:100% ;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+/* circulo*/
+.fundo_extra{
+position: absolute;
+bottom: -50px;
+right: -50px;
+width: 460px;
+height:500px ;
+background-color:aqua;
+cursor: pointer;
+border-radius: 50%;
+}
+
+.fundo_extra:hover{
+
+    color: gold;
+    transition: all 1s;
+}
+
+
+
+/* cachorro*/
+.chr{
+
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 10px;
+   
+ 
+}
+
+
+.insta{
+    right: 500px;
+    width: 50px;
+    float: left;
+    border-radius: 20px;
+    height: 50px;
+    margin: 10px;
+margin-top: 20px;
+   
+  
+}
+
+.faceb{
+
+    right: 500px;
+    width: 50px;
+    border-radius: 20px;
+    height: 50px;
+  margin-top:20px;
+}
+
+.what{
+
+right: 500px;
+    width: 50px;
+    border-radius: 20px;
+    height: 50px;
+  margin-top:20px;
+}
+
+.tw{
+    right: 500px;
+    width: 50px;
+    border-radius: 20px;
+    height: 50px;
+  margin-top:20px;
+  
+}
+
+
+.social{
+
+    margin: 90px;
+    margin-top:20px;
+    cursor: pointer;
+  
+    
+}
+
+.fundo_txt{
+   font-size: xx-large;
+   margin: 80px;
+   color: rgb(0, 0, 0);
+   margin: 15% ;
+   margin-top: 5%;
+  
+
+}
+
+.fundo_txt:hover{
+
+    color:aqua;
+    transition: all 2s;
+}
+
+p{
+   
+    text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   width: 550px;
+   margin: 18%;
+ margin-top: -14%;
+
+
+}
+nav {
+	display: flex;
+   justify-content:space-between;
+   align-items: center;
+	margin: 0%;
+   background-color: #ffffff;
+   border-radius: 15px;
+   height: 56px;
+   width: 99%;
+   cursor: pointer;
+   overflow: hidden;
+   margin-top: 15px;
+
+}
+
+
+
+nav ul li{
+	display: inline;
+	margin: 3px;
+    margin-top: 10%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+padding: 0%;
+
+}
+
+nav ul li a{
+
+	
+	color: rgb(0, 0, 0);
+	text-decoration:none 
+    
+	
+	
+}
+	
+
+/* cor q muda quando passa mouse */
+nav ul li a:hover{
+	color: rgb(255, 255, 255);
+	
+font-weight: bold;
+
+}
+
+li.active, li:hover{
+	background-color: rgb(0, 0, 0);
+}

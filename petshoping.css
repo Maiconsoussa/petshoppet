@@ -1,0 +1,191 @@
+body{
+
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 900px;
+	background-color:rgb(255, 255, 255);
+  border-radius: 50px;
+  margin-top: 11%;
+  cursor: pointer;
+
+}
+
+.exemplo1 {
+
+  height: 100%;
+
+}
+
+.exemplo2{
+
+  margin-top: 3%;
+}
+ /* imagens*/
+.member {
+	width: 300px;
+ height: 370px;
+	margin-bottom: 30px;
+	background-color: rgb(0, 87, 105);
+	padding: 20px;
+	box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 8%;
+
+
+}
+
+
+
+
+
+
+
+
+.member img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 50px;
+}
+
+.member h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+.lupy{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jow{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rick{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.marrom{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Zorro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Alegre{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Ping{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Sansao{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Kiba{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Akamaru{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Brown{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.garry{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bin{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fundo_adoteme{
+
+ 
+margin-left: -217%;
+margin-top: 20%;
+text-decoration: underline;
+}
+.fundo_adoteme:hover{
+  color:rgb(0, 87, 105) ;
+  transition: all 1s;
+ 
+}
+@media screen and (max-width: 390px){
+	body{
+		background:greenyellow;
+	}
+}
+
+nav {
+	display: flex;
+   justify-content:space-between;
+	margin: 0%;
+   background-color: #ffffff;
+   border-radius: 15px;
+   height: 56px;
+   width: 99%;
+   cursor: pointer;
+   overflow: hidden;
+   
+
+   
+}
+
+nav ul li{
+	display: inline;
+	margin: 3px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+padding: 0%;}
+
+nav ul li a{
+
+	
+	color: rgb(0, 0, 0);
+	text-decoration:none 
+	
+	
+}
+	
+
+/* cor q muda quando passa mouse */
+nav ul li a:hover{
+	color: rgb(255, 255, 255);
+	
+font-weight: bold;
+
+}
+
+li.active, li:hover{
+	background-color: rgb(0, 0, 0);
+}

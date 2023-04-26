@@ -1,0 +1,399 @@
+
+
+body { 
+   background-color: aqua;
+	
+
+}
+
+
+nav {
+	 display: flex;
+	justify-content:space-between;
+	 margin: 0%;
+	background-color: #ffffff;
+	border-radius: 15px;
+	height: 56px;
+	width: 99%;
+	cursor: pointer;
+	overflow: hidden;
+	
+	
+	
+
+
+	
+}
+
+.img_n{
+
+	
+}
+
+
+
+
+
+
+
+
+/* (display inline)deixar um do lado do outro... home, sobre nós etc..*/
+nav ul li{
+	display: inline;
+	margin: 3px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+padding: 0%;
+
+
+
+
+}
+
+.itemmenu:hover{
+	background-color: rgb(0, 0, 0);
+}
+
+
+
+/* cor da letra */
+nav ul li a{
+
+	
+	color: rgb(0, 0, 0);
+	text-decoration:none 
+	
+	
+}
+	
+
+/* cor q muda quando passa mouse */
+nav ul li a:hover{
+	color: rgb(255, 255, 255);
+	
+font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+/*bem vindo ao animal.f*/
+h1{
+	text-align: center;
+	cursor: pointer;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: xx-large;
+	text-decoration: underline;
+
+	
+}
+
+
+
+
+   
+
+
+
+
+
+
+/* petshop, sobre nós, compre conosco, nosso time*/
+	h2{
+
+	
+	text-align: center;
+	color: #fefefe;
+	background-color: rgb(0, 0, 0);
+	border-radius: 20px 0px 20px 0px;
+	text-indent: 10px;
+	width: 270px;
+	height: 30px;
+	margin: 20px auto 20px auto;
+	cursor: pointer;
+	
+
+}
+
+
+/* fonte da letra.... Petshop*/
+.fundo_verde{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+.fundo_verde a{
+
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.fundo_verde a:hover{
+	color: aqua;
+	transition: all 2s;}
+
+/*cor q muda quando passa mouse.... Petshop*/
+.fundo_verde:hover{
+	color: aqua;
+	transition: all 2s;
+}
+
+
+
+
+
+
+
+
+/*sobre nos*/
+.fundo_azul{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.fundo_azul:hover{
+	color: aqua;
+	transition: all 2s ;
+}
+		
+
+
+/*nosso time*/
+.fundo_branco{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+     
+	
+}
+	
+
+.fundo_branco:hover{
+	color: aqua;
+	transition: all 2s;
+
+}
+
+/* texto do  site*/
+
+p{ 
+	text-align: center;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	cursor: pointer;
+	
+	
+} 
+
+
+ 
+
+
+
+
+/* ceo , eng. , int.a  ...*/
+
+
+
+
+
+/* 2023 pet ani feliz ....*/
+footer  {
+
+	text-align: center;
+	 background-color: rgb(0, 0, 0);
+	 color:rgb(255, 255, 255);
+	 border-radius: 200px;
+	 margin: auto;
+	 width: 700px;
+	 margin-top: 100px;
+	 
+
+
+}
+
+
+footer:hover{
+
+	color: gray;
+	transition: all 2s;
+	
+	
+}
+
+img{
+
+	border-radius: 25px;
+	cursor: pointer;
+	border: 5px rgb(0, 0, 0) solid;
+	
+	
+
+	
+}
+
+
+
+/*
+	Informações a respeitos dos membros da página
+*/
+
+
+/* fundo de eonde estão as imagens*/
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 600px;
+	background-color:aqua
+	
+
+}
+
+ /* imagens*/
+.member {
+	width: 300px;
+	height: 550px;
+	margin-bottom: 30px;
+	background-color:aqua;
+	padding: 20px;
+	box-sizing: border-box;
+	
+
+}
+
+.member img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 50px;
+}
+
+.member h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/*media serve para o ajuste da fonte*/
+
+@media screen and (max-width: 390px){
+	body{
+		background:greenyellow;
+	}
+}
+ 
+
+.a_adocao{
+
+	background-color: aqua;
+	color: crimson;
+}
+
+.animais{
+
+list-style: none;
+display: flex;
+margin-top: -1%;
+
+
+	
+	
+	
+	
+}
+
+.peixe{
+
+width: 270px;
+height: 202px;
+margin-left:-8%;
+margin-top: -70%;
+
+
+
+
+	
+
+}
+
+.alemao{
+
+	width: 270px;
+	height: 200px;
+	margin: 168%;
+	margin-top: -70%;
+	
+	
+
+
+}
+
+.passsaro{
+
+	width: 267px;
+	height: 200px;	
+	margin-top: -70%;
+	margin-left: 206%;
+	
+	
+	
+
+}
+
+
+.FUNDO_SEJA{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	margin-left: -32%;
+	margin-top: -9%;
+	text-decoration: none;
+
+}
+
+.FUNDO_SEJA:hover {
+	color: white;
+	transition: all 1s;
+}
+
+.FUNDO_MUNDO{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	margin-left: -20%;
+	margin-top: -5%;
+ text-decoration: none;
+ 
+}
+
+.FUNDO_MUNDO:hover{
+	color: white;
+	transition: all 1S;
+}
+
+.fundo_ouvi:hover{
+
+	color: aqua;
+	transition: 1s;
+
+	
+}
